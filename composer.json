@@ -1,0 +1,28 @@
+{
+  "name": "dani4421/lentera_cendekia",
+  "type": "project",
+  "autoload": {
+    "files": ["infrastructures/supports/helpers.php"],
+    "psr-4": {
+      "Dani4421\\LenteraCendekia\\": "public/",
+      "App\\": "app/",
+      "App\\Controllers\\": "app/controllers/",
+      "App\\Models\\": "app/models/",
+      "Bootstrap\\": "bootstrap/",
+      "Database\\": "database/",
+      "Infrastructures\\": "infrastructures/",
+      "Infrastructures\\Routes\\": "infrastructures/routes",
+      "Infrastructures\\Factories\\": "infrastructures/factories",
+      "Infrastructures\\Contracts\\": "infrastructures/contracts/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Aji Hamdani Ahmad",
+      "email": "85418881+Danni4421@users.noreply.github.com"
+    }
+  ],
+  "require": {
+    "php": ">=8"
+  }
+}
